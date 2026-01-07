@@ -37,7 +37,7 @@ st.markdown("""
 def load_models():
     # Ensure these files are in the same directory
     classifier = joblib.load('lithology_model.pkl')
-    regressor = joblib.load('rhob_predictor_model.pkl')
+    regressor = joblib.load('lithology_model.pkl')
     return classifier, regressor
 
 try:
